@@ -1,0 +1,252 @@
+:root {
+  /* sizes */
+  --smallsize: 14px;
+  --normalsize: 16px;
+  --mediumsize: 22px;
+  --largesize: 32px;
+  --leftmargin: 3.554736842105264vw;
+  --borderradius: 10px;
+  --boxshadowsize: 0 15px 25px;
+  --commonheight: 45px;
+}
+
+/* General */
+.main {
+  padding: 5px;
+}
+
+/* Main */
+.star-icon {
+  left: 83.364583vw;
+  top: 25.2416vw;
+}
+
+.message-icon {
+  left: 6.6125vw;
+  top: 21.69416vw;
+}
+
+header {
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.company-logo {
+  width: 100%;
+}
+
+.header-links-block {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.sign-up-button {
+  height: 45px;
+  line-height: 45px;
+  width: 100px;
+}
+
+.banner-controls {
+  justify-content: center;
+  margin-bottom: 5%;
+  text-align: center;
+  width: 100%;
+}
+
+.banner-title {
+  font-size: 34px;
+  line-height: 38px;
+}
+
+.banner-description {
+  line-height: 22px;
+  margin: 0 15%;
+  text-align: center;
+  width: 100%;
+}
+
+.create-account-button {
+  text-align: center;
+  width: 150px;
+}
+
+.see-how-it-works-link:hover {
+  color: var(--comet);
+  cursor: pointer;
+}
+
+.credit-card-image {
+  display: none;
+}
+
+/* Choose us */
+.choose-us-text h1 {
+  margin-left: 0;
+}
+
+.choose-us-text p:last-child {
+  margin: 2% 15% 0 0;
+  width: 100%;
+}
+
+.our-advantages {
+  flex-direction: column;
+}
+
+.advantage-image {
+  height: 50%;
+}
+
+.advantage-image:hover {
+  scale: 1.1;
+}
+
+.our-advantages p:nth-of-type(2n+2) {
+  line-height: 22px;
+  padding: 0 15% 5%;
+  width: 100%;
+}
+
+.curved-dotted-line {
+  display: none;
+}
+
+/* How does it works */
+.how-works {
+  align-items: center;
+  justify-content: center;
+  margin: 5% var(--leftmargin);
+}
+
+.with-coffee-note {
+  display: none;
+}
+
+.how-description {
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  margin: 0;
+  width: 80%;
+}
+
+.how-description h1+p {
+  line-height: 23px;
+  margin: 0;
+}
+
+.how-description>p:nth-of-type(1n + 2) {
+  line-height: 18px;
+  margin: 0;
+  width: 100%;
+}
+
+.sponsors-logo {
+  display: flex;
+  justify-content: center;
+  margin: 10% 0;
+}
+
+/* Downloads */
+.download-apps {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 var(--leftmargin);
+}
+
+.buttons-block {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+}
+
+.buttons-block>p:nth-of-type(1) {
+  line-height: 20px;
+  margin: 2%;
+}
+
+.buttons-block div {
+  margin: 0 20px 10px 0;
+  width: 170px;
+}
+
+.buttons-block div>img {
+  width: calc(var(--commonheight) / 2);
+}
+
+.iphone-circle {
+  display: none;
+}
+
+/* Features */
+.features-block {
+  align-items: center;
+  margin: 15% var(--leftmargin);
+}
+
+.features-block>div:first-child {
+  margin: 0;
+  width: 100%;
+}
+
+.features-block p:nth-of-type(1) {
+  line-height: 20px;
+  margin: 2% 0;
+  width: 100%;
+}
+
+.features-images {
+  justify-content: space-around;
+}
+
+.features-images>div {
+  font-size: 16px;
+  height: 200px;
+  margin: 1.7%;
+  width: 200px;
+}
+
+.features-images img {
+  width: 35px;
+}
+
+/* Customer support */
+.customer-support {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 3%;
+}
+
+.call-us {
+  width: 150px;
+}
+
+.customer-support img {
+  width: 24px;
+}
+
+/* Footer */
+footer {
+  flex-direction: column;
+  justify-content: center;
+  padding: 10% var(--leftmargin) 2%;
+}
+
+.social-networks img {
+  margin-top: 8%;
+  width: 20px;
+}
+
+footer>p {
+  font-size: 12px;
+}
