@@ -1,13 +1,11 @@
 :root {
   /* sizes */
-  --smallsize: 14px;
-  --normalsize: 16px;
-  --mediumsize: 22px;
-  --largesize: 32px;
-  --leftmargin: 3.554736842105264vw;
-  --borderradius: 10px;
-  --boxshadowsize: 0 15px 25px;
-  --commonheight: 45px;
+  --normalSize: 16px;
+  --mediumSize: 22px;
+  --largeSize: 32px;
+  --leftMargin: 3vw;
+  --boxShadowSize: 0 15px 25px;
+  --commonHeight: 45px;
 }
 
 /* General */
@@ -17,13 +15,13 @@
 
 /* Main */
 .star-icon {
-  left: 83.364583vw;
-  top: 25.2416vw;
+  left: 83vw;
+  top: 25vw;
 }
 
 .message-icon {
-  left: 6.6125vw;
-  top: 21.69416vw;
+  left: 6vw;
+  top: 21vw;
 }
 
 header {
@@ -45,8 +43,8 @@ header {
 }
 
 .sign-up-button {
-  height: 45px;
-  line-height: 45px;
+  height: var(--commonHeight);
+  line-height: var(--commonHeight);
   width: 100px;
 }
 
@@ -59,11 +57,9 @@ header {
 
 .banner-title {
   font-size: 34px;
-  line-height: 38px;
 }
 
 .banner-description {
-  line-height: 22px;
   margin: 0 15%;
   text-align: center;
   width: 100%;
@@ -72,11 +68,6 @@ header {
 .create-account-button {
   text-align: center;
   width: 150px;
-}
-
-.see-how-it-works-link:hover {
-  color: var(--comet);
-  cursor: pointer;
 }
 
 .credit-card-image {
@@ -101,10 +92,6 @@ header {
   height: 50%;
 }
 
-.advantage-image:hover {
-  scale: 1.1;
-}
-
 .our-advantages p:nth-of-type(2n+2) {
   line-height: 22px;
   padding: 0 15% 5%;
@@ -119,7 +106,7 @@ header {
 .how-works {
   align-items: center;
   justify-content: center;
-  margin: 5% var(--leftmargin);
+  margin: 5% var(--leftMargin);
 }
 
 .with-coffee-note {
@@ -135,29 +122,25 @@ header {
   width: 80%;
 }
 
-.how-description h1+p {
-  line-height: 23px;
-  margin: 0;
-}
-
 .how-description>p:nth-of-type(1n + 2) {
-  line-height: 18px;
-  margin: 0;
   width: 100%;
 }
 
+/* Sponsors */
 .sponsors-logo {
-  display: flex;
   justify-content: center;
-  margin: 10% 0;
+  margin: 10% 0px;
+  width: 100%;
+}
+
+.sponsors-logo img {
+  width: 17vw;
 }
 
 /* Downloads */
 .download-apps {
   align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 var(--leftmargin);
+  margin: 0 var(--leftMargin);
 }
 
 .buttons-block {
@@ -169,7 +152,6 @@ header {
 }
 
 .buttons-block>p:nth-of-type(1) {
-  line-height: 20px;
   margin: 2%;
 }
 
@@ -179,7 +161,7 @@ header {
 }
 
 .buttons-block div>img {
-  width: calc(var(--commonheight) / 2);
+  width: calc(var(--commonHeight) / 2);
 }
 
 .iphone-circle {
@@ -189,7 +171,7 @@ header {
 /* Features */
 .features-block {
   align-items: center;
-  margin: 15% var(--leftmargin);
+  margin: 15% var(--leftMargin);
 }
 
 .features-block>div:first-child {
@@ -203,18 +185,18 @@ header {
   width: 100%;
 }
 
-.features-images {
+.feature-images {
   justify-content: space-around;
 }
 
-.features-images>div {
+.feature-images>div {
   font-size: 16px;
   height: 200px;
   margin: 1.7%;
   width: 200px;
 }
 
-.features-images img {
+.feature-images img {
   width: 35px;
 }
 
@@ -228,6 +210,7 @@ header {
 }
 
 .call-us {
+  height: var(--commonHeight);
   width: 150px;
 }
 
@@ -239,7 +222,7 @@ header {
 footer {
   flex-direction: column;
   justify-content: center;
-  padding: 10% var(--leftmargin) 2%;
+  padding: 10% var(--leftMargin) 2%;
 }
 
 .social-networks img {

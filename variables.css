@@ -7,27 +7,25 @@
   --white: #ffffff;
   --comet: #646679;
   --mystic: #e3e9f0;
-  --hotpink: #fe6c9d;
-  --cupid: #f9bdd1;
-  --electricviolet: #7c43f9;
+  --hotPink: #fe6c9d;
   --thistle: #d2b1cf;
 
   /* rgba */
-  --fuchsiablue: 115, 82, 208;
+  --fuchsiaBlue: 115, 82, 208;
   --thistle: 210, 177, 207;
   --mischka: 210, 214, 225;
   --portagea: 145, 102, 240;
-  --hotpinka: 254, 108, 157;
-  --purpleheart: 99, 45, 219;
-  --bluedianne: 34, 60, 80;
+  --hotPinka: 254, 108, 157;
+  --purpleHeart: 99, 45, 219;
+  --blueDianne: 34, 60, 80;
 
   /* sizes */
-  --smallsize: 0.83vw;
-  --normalsize: 0.9375vw;
-  --mediumsize: 1.6vw;
-  --largesize: 2.60416vw;
-  --leftmargin: 12.554736842105264vw;
-  --borderradius: 0.5263157894736842vw;
-  --boxshadowsize: 0 0.78125vw 1.302083vw;
-  --commonheight: 3.125vw;
+  --smallSize: 14px;
+  --normalSize: 1vw;
+  --mediumSize: 19px;
+  --largeSize: 30px;
+  --leftMargin: 12vw;
+  --borderRadius: 10px;
+  --boxShadowSize: 0 1vw 1vw;
+  --commonHeight: 45px;
 }
