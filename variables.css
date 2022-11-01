@@ -1,0 +1,31 @@
+:root {
+  --tutu: #ffeefe;
+  --zircon: #f5f7ff;
+  --solitude: #e4f2fe;
+  --portage: #9166f0;
+  --mirage: #161828;
+  --white: #ffffff;
+  --comet: #646679;
+  --mystic: #e3e9f0;
+  --hotPink: #fe6c9d;
+  --thistle: #d2b1cf;
+
+  /* rgba */
+  --fuchsiaBlue: 115, 82, 208;
+  --thistle: 210, 177, 207;
+  --mischka: 210, 214, 225;
+  --portagea: 145, 102, 240;
+  --hotPinka: 254, 108, 157;
+  --purpleHeart: 99, 45, 219;
+  --blueDianne: 34, 60, 80;
+
+  /* sizes */
+  --smallSize: 14px;
+  --normalSize: 1vw;
+  --mediumSize: 19px;
+  --largeSize: 30px;
+  --leftMargin: 12vw;
+  --borderRadius: 10px;
+  --boxShadowSize: 0 1vw 1vw;
+  --commonHeight: 45px;
+}

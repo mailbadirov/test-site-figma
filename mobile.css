@@ -1,0 +1,235 @@
+:root {
+  /* sizes */
+  --normalSize: 16px;
+  --mediumSize: 22px;
+  --largeSize: 32px;
+  --leftMargin: 3vw;
+  --boxShadowSize: 0 15px 25px;
+  --commonHeight: 45px;
+}
+
+/* General */
+.main {
+  padding: 5px;
+}
+
+/* Main */
+.star-icon {
+  left: 83vw;
+  top: 25vw;
+}
+
+.message-icon {
+  left: 6vw;
+  top: 21vw;
+}
+
+header {
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.company-logo {
+  width: 100%;
+}
+
+.header-links-block {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.sign-up-button {
+  height: var(--commonHeight);
+  line-height: var(--commonHeight);
+  width: 100px;
+}
+
+.banner-controls {
+  justify-content: center;
+  margin-bottom: 5%;
+  text-align: center;
+  width: 100%;
+}
+
+.banner-title {
+  font-size: 34px;
+}
+
+.banner-description {
+  margin: 0 15%;
+  text-align: center;
+  width: 100%;
+}
+
+.create-account-button {
+  text-align: center;
+  width: 150px;
+}
+
+.credit-card-image {
+  display: none;
+}
+
+/* Choose us */
+.choose-us-text h1 {
+  margin-left: 0;
+}
+
+.choose-us-text p:last-child {
+  margin: 2% 15% 0 0;
+  width: 100%;
+}
+
+.our-advantages {
+  flex-direction: column;
+}
+
+.advantage-image {
+  height: 50%;
+}
+
+.our-advantages p:nth-of-type(2n+2) {
+  line-height: 22px;
+  padding: 0 15% 5%;
+  width: 100%;
+}
+
+.curved-dotted-line {
+  display: none;
+}
+
+/* How does it works */
+.how-works {
+  align-items: center;
+  justify-content: center;
+  margin: 5% var(--leftMargin);
+}
+
+.with-coffee-note {
+  display: none;
+}
+
+.how-description {
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  margin: 0;
+  width: 80%;
+}
+
+.how-description>p:nth-of-type(1n + 2) {
+  width: 100%;
+}
+
+/* Sponsors */
+.sponsors-logo {
+  justify-content: center;
+  margin: 10% 0px;
+  width: 100%;
+}
+
+.sponsors-logo img {
+  width: 17vw;
+}
+
+/* Downloads */
+.download-apps {
+  align-items: center;
+  margin: 0 var(--leftMargin);
+}
+
+.buttons-block {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+}
+
+.buttons-block>p:nth-of-type(1) {
+  margin: 2%;
+}
+
+.buttons-block div {
+  margin: 0 20px 10px 0;
+  width: 170px;
+}
+
+.buttons-block div>img {
+  width: calc(var(--commonHeight) / 2);
+}
+
+.iphone-circle {
+  display: none;
+}
+
+/* Features */
+.features-block {
+  align-items: center;
+  margin: 15% var(--leftMargin);
+}
+
+.features-block>div:first-child {
+  margin: 0;
+  width: 100%;
+}
+
+.features-block p:nth-of-type(1) {
+  line-height: 20px;
+  margin: 2% 0;
+  width: 100%;
+}
+
+.feature-images {
+  justify-content: space-around;
+}
+
+.feature-images>div {
+  font-size: 16px;
+  height: 200px;
+  margin: 1.7%;
+  width: 200px;
+}
+
+.feature-images img {
+  width: 35px;
+}
+
+/* Customer support */
+.customer-support {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 3%;
+}
+
+.call-us {
+  height: var(--commonHeight);
+  width: 150px;
+}
+
+.customer-support img {
+  width: 24px;
+}
+
+/* Footer */
+footer {
+  flex-direction: column;
+  justify-content: center;
+  padding: 10% var(--leftMargin) 2%;
+}
+
+.social-networks img {
+  margin-top: 8%;
+  width: 20px;
+}
+
+footer>p {
+  font-size: 12px;
+}
